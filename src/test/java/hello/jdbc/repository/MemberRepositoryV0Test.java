@@ -11,7 +11,7 @@ import hello.jdbc.domain.Member;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-class MemberRepository0Test {
+class MemberRepositoryV0Test {
 
 	MemberRepository0 repository0 = new MemberRepository0();
 
