@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 class MemberRepositoryV0Test {
 
-	MemberRepository0 repository0 = new MemberRepository0();
+	MemberRepositoryV0 repository0 = new MemberRepositoryV0();
 
 	@Test
 	void crud() throws SQLException {

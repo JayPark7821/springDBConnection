@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 class MemberRepositoryV1Test {
 
-	MemberRepository1 repository;
+	MemberRepositoryV1 repository;
 
 	@BeforeEach
 	void beforeEach() {
@@ -30,7 +30,7 @@ class MemberRepositoryV1Test {
 		dataSource.setUsername(USERNAME);
 		dataSource.setPassword(PASSWORD);
 
-		repository = new MemberRepository1(dataSource);
+		repository = new MemberRepositoryV1(dataSource);
 	}
 
 	@Test
